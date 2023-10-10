@@ -452,7 +452,7 @@ color: var( --secColor);
     margin-top: 30px;
     text-align: center;
     font-size: 35px;
-     color:black;
+     color: --firstColor;
     
  }
  .h1-cont{
@@ -508,8 +508,8 @@ color: var( --secColor);
 .contact-left{
     flex-basis: 60%;
    border-radius: 10px;
-  background:white;
-  box-shadow: 8px 8px 10px lightgrey;
+  background:lightgray;
+  /* box-shadow: 8px 8px 10px lightgrey; */
   padding: 15px 5px;
   opacity: 0;
  transform: translateX(-60px);
@@ -521,14 +521,14 @@ color: var( --secColor);
 }
 .contact-left form{
     margin-top: 20px;
-     background:lightgray;
+     
  
 }
 .contact-left h1{
     font-size: 24px;
     text-align: left;
     margin-left: 20px;
-     color:rgb(56, 55, 55);
+     color:rgb(83, 82, 82);
 }
 .contact-left form input{
    background: rgb(234, 220, 226);
@@ -612,24 +612,31 @@ body{
  @media(max-width:590px){
     .project{
        
-        border: 1px solid black;
+       
+        padding: auto;
     }
     .project-col{
+    
+
       
-       
+       padding-left: 40px;
+      
       display: block;
     
     }
     .project-row{
         margin-top: 20px;
-       width:60%;
+       width:85%;
     }
    
     .link h2{
   font-size: 18px;
     }
     .link p{
+        padding-left: 10px;
         font-size: 13px;
+        text-align: center;
+        align-items: center;
     }
     .fa-external-link{
         font-size: 17px;
@@ -681,14 +688,14 @@ body{
 
 @media(max-width:700px){
     .intro h1{
-        color:black;
+        color:rgb(235, 235, 235);
         
     }
     .intro h2{
-        color:black;
+        color:rgb(224, 224, 224);
         }
         .intro p{
-            color:black;
+            color:rgb(0, 0, 0);
             }
 
     nav{
@@ -727,7 +734,7 @@ body{
         display: none;
     }
     .header{
-        background-image: linear-gradient(rgba(4, 4, 4, 0.2),rgba(4, 4, 4, 0.2)),url(img/piyush.jpeg);
+        background-image: linear-gradient(rgba(4, 4, 4, 0.8),rgba(4, 4, 4, 0.4)),url(img/piyush.jpeg);
         width:100%;
     }
     .fa{
