@@ -21,7 +21,7 @@ html{
 .bg-dark{
     --firstColor:rgb(223, 220, 220);
     /* --secColor:rgb(23, 7, 21); */
-    --secColor:rgb(3, 0, 23);
+    --secColor:rgb(4, 13, 18);
     --thirdColor:orangered;
 }
 
@@ -452,6 +452,7 @@ color: var( --secColor);
     margin-top: 30px;
     text-align: center;
     font-size: 35px;
+     color:black;
     
  }
  .h1-cont{
@@ -520,12 +521,14 @@ color: var( --secColor);
 }
 .contact-left form{
     margin-top: 20px;
+     background:lightgray;
  
 }
 .contact-left h1{
     font-size: 24px;
     text-align: left;
     margin-left: 20px;
+     color:rgb(56, 55, 55);
 }
 .contact-left form input{
    background: rgb(234, 220, 226);
